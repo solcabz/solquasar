@@ -32,6 +32,7 @@
         </q-tab-panels>
       </div>
     </div>
+    <!-- <calendar></calendar> -->
   </div>
 </template>
 
@@ -43,6 +44,9 @@ export default {
     return {
       tab: ref("mails"),
     };
+  },
+  components: {
+    // calendar: require("components/Tasks/CalendarPage.vue").default,
   },
 };
 </script>
