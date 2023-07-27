@@ -4,10 +4,6 @@ const routes = [
     component: () => import("layouts/MainLayout.vue"),
     children: [
       {
-        path: "/home",
-        component: () => import("pages/IndexPage.vue"),
-      },
-      {
         path: "/about",
         component: () => import("pages/AboutPage.vue"),
       },
@@ -22,6 +18,10 @@ const routes = [
       {
         path: "login",
         component: () => import("pages/LoginPages.vue"),
+      },
+      {
+        path: "", // This is an empty path to match the root URL "/"
+        component: () => import("pages/IndexPage.vue"),
       },
     ],
   },

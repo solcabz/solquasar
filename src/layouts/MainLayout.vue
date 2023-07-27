@@ -51,7 +51,7 @@
         "
       >
         <q-list padding class="menu-list">
-          <q-item clickable v-ripple to="/home">
+          <q-item clickable v-ripple to="/" exact>
             <q-item-section avatar>
               <q-icon name="home"></q-icon>
             </q-item-section>
