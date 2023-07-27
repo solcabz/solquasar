@@ -3,8 +3,7 @@
     <q-banner rounded class="bg-blue-2">
       <span>Solomon Cabreza</span>
     </q-banner>
+    <q-img src="../assets/sol.png" width="550px" />
   </div>
 </template>
-<script>
-const { QPage } = require("quasar");
-</script>
+<script></script>
