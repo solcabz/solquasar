@@ -1,6 +1,6 @@
 <template>
   <div class="q-pa-md">
-    <div>
+    <!-- <div>
       <q-tabs v-model="tab" align="justify" narrow-indicator class="q-mb-lg">
         <q-tab class="text-indigo bg-indigo-1" name="mails" label="Mails" />
         <q-tab class="" name="alarms" label="Alarms" />
@@ -31,8 +31,8 @@
           </q-tab-panel>
         </q-tab-panels>
       </div>
-    </div>
-    <!-- <calendar></calendar> -->
+    </div> -->
+    <calendar></calendar>
   </div>
 </template>
 
@@ -46,7 +46,7 @@ export default {
     };
   },
   components: {
-    // calendar: require("components/Tasks/CalendarPage.vue").default,
+    calendar: require("components/Tasks/CalendarPage.vue").default,
   },
 };
 </script>
