@@ -1,14 +1,14 @@
 <template>
-  <q-banner rounded class="bg-grey-3">
+  <q-banner color="dark" rounded class="bg-grey-3">
     <template v-slot:avatar>
       <q-icon name="check" color="primary" />
     </template>
-    Empty Task Todo!
+    <p class="dark">Empty Task Todo!</p>
     <template v-slot:action>
       <q-btn
         @click="$emit('showAddTask')"
         flat
-        color="primary"
+        color="indigo"
         label="Add task"
       />
     </template>
@@ -18,3 +18,9 @@
 <script>
 export default {};
 </script>
+
+<style lang="scss" scoped>
+.dark {
+  color: #2b2b2b;
+}
+</style>
