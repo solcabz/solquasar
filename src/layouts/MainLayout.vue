@@ -51,7 +51,7 @@
         "
       >
         <q-list padding class="menu-list">
-          <q-item clickable v-ripple to="/" exact>
+          <q-item active-class="text-indigo-4" clickable v-ripple to="/" exact>
             <q-item-section avatar>
               <q-icon name="home"></q-icon>
             </q-item-section>
@@ -59,7 +59,7 @@
             <q-item-section> Home </q-item-section>
           </q-item>
 
-          <q-item clickable v-ripple to="/about">
+          <q-item active-class="text-indigo-4" clickable v-ripple to="/about">
             <q-item-section avatar>
               <q-icon name="quiz"></q-icon>
             </q-item-section>
@@ -67,7 +67,7 @@
             <q-item-section> About </q-item-section>
           </q-item>
 
-          <q-item clickable v-ripple to="/todo">
+          <q-item active-class="text-indigo-4" clickable v-ripple to="/todo">
             <q-item-section avatar>
               <q-icon name="list"></q-icon>
             </q-item-section>
@@ -75,7 +75,7 @@
             <q-item-section> Todo </q-item-section>
           </q-item>
 
-          <q-item clickable v-ripple to="/login">
+          <q-item active-class="text-indigo-4" clickable v-ripple to="/login">
             <q-item-section avatar>
               <q-icon name="login"></q-icon>
             </q-item-section>
@@ -83,7 +83,12 @@
             <q-item-section> Login </q-item-section>
           </q-item>
 
-          <q-item clickable v-ripple to="/settings">
+          <q-item
+            active-class="text-indigo-4"
+            clickable
+            v-ripple
+            to="/settings"
+          >
             <q-item-section avatar>
               <q-icon name="settings"></q-icon>
             </q-item-section>
@@ -114,6 +119,7 @@
 
 <script>
 import { ref } from "vue";
+
 export default {
   setup() {
     return {
