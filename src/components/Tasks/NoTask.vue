@@ -1,7 +1,7 @@
 <template>
   <q-banner color="dark" rounded class="bg-grey-3">
     <template v-slot:avatar>
-      <q-icon name="check" color="primary" />
+      <q-icon name="check" color="indigo-4" />
     </template>
     <p class="dark">Empty Task Todo!</p>
     <template v-slot:action>
