@@ -37,7 +37,7 @@
             <q-btn
               class="cursor-pointer"
               clickable
-              icon="facebook"
+              icon="fa-brands fa-facebook-square"
               round
               color="indigo-4"
             ></q-btn>
@@ -45,7 +45,7 @@
             <q-btn
               class="cursor-pointer"
               clickable
-              icon="discord"
+              icon="fa-brands fa-linkedin"
               round
               color="indigo-4"
             ></q-btn>
@@ -53,7 +53,7 @@
             <q-btn
               class="cursor-pointer"
               clickable
-              icon="catching_pokemon"
+              icon="fa-brands fa-github"
               round
               color="indigo-4"
             ></q-btn>
