@@ -16,21 +16,26 @@
           <q-img src="../assets/sol.jpg" />
           <q-menu separator style="width: 280px">
             <q-list separator>
-              <q-item v-close-popup clickable>
+              <q-item active-class="text-indigo-4" v-close-popup clickable>
                 <q-item-section avatar>
                   <q-icon name="person"></q-icon>
                 </q-item-section>
                 <q-item-section> Account </q-item-section>
               </q-item>
 
-              <q-item v-close-popup clickable to="/settings">
+              <q-item
+                active-class="text-indigo-4"
+                v-close-popup
+                clickable
+                to="/settings"
+              >
                 <q-item-section avatar>
                   <q-icon name="settings"></q-icon>
                 </q-item-section>
                 <q-item-section> Settings </q-item-section>
               </q-item>
 
-              <q-item v-close-popup clickable>
+              <q-item active-class="text-indigo-4" v-close-popup clickable>
                 <q-item-section avatar>
                   <q-icon name="logout"></q-icon>
                 </q-item-section>

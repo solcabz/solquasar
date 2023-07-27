@@ -33,27 +33,30 @@
             color="indigo-4"
           />
 
-          <div class="row justify-around q-my-sm">
-            <q-icon
+          <div class="row justify-evenly q-my-sm">
+            <q-btn
               class="cursor-pointer"
               clickable
-              name="facebook"
-              size="2em"
-            ></q-icon>
+              icon="facebook"
+              round
+              color="indigo-4"
+            ></q-btn>
 
-            <q-icon
+            <q-btn
               class="cursor-pointer"
               clickable
-              name="discord"
-              size="2em"
-            ></q-icon>
+              icon="discord"
+              round
+              color="indigo-4"
+            ></q-btn>
 
-            <q-icon
+            <q-btn
               class="cursor-pointer"
               clickable
-              name="messenger"
-              size="2em"
-            ></q-icon>
+              icon="catching_pokemon"
+              round
+              color="indigo-4"
+            ></q-btn>
           </div>
 
           <q-btn
