@@ -126,7 +126,8 @@ export default {
 };
 </script>
 
-<style lang="sass" scoped>
-.menu-list .q-item
-  border-radius: 0 32px 32px 0
+<style lang="scss" scoped>
+.menu-list .q-item {
+  border-radius: 0 32px 32px 0;
+}
 </style>

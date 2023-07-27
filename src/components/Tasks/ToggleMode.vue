@@ -4,7 +4,7 @@
       v-model="darkmode"
       @click="toggleDarkMode"
       checked-icon="dark_mode"
-      color="grey-8"
+      color="grey"
       unchecked-icon="sunny"
       keep-color
       size="xl"
@@ -28,3 +28,12 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.menu-list .q-item {
+  border-radius: 0 32px 32px 0;
+}
+.dark {
+  background: #333333;
+}
+</style>
