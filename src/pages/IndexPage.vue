@@ -1,9 +1,37 @@
 <template>
-  <div class="q-pa-md">
-    <q-banner rounded class="bg-blue-2">
-      <span>Solomon Cabreza</span>
-    </q-banner>
-    <q-img src="../assets/sol.png" width="550px" />
+  <div class="q-pa-md row q-gutter-md overflow-hidden">
+    <q-card class="my-card">
+      <q-img src="https://cdn.quasar.dev/img/mountains.jpg" />
+
+      <q-card-section>
+        <div class="text-h6">Our Changing Planet</div>
+        <div class="text-subtitle2">by John Doe</div>
+      </q-card-section>
+
+      <q-card-section class="q-pt-none"> </q-card-section>
+    </q-card>
+
+    <q-card class="my-card">
+      <q-img src="https://cdn.quasar.dev/img/mountains.jpg" />
+
+      <q-card-section>
+        <div class="text-h6">Our Changing Planet</div>
+        <div class="text-subtitle2">by John Doe</div>
+      </q-card-section>
+
+      <q-card-section class="q-pt-none"> </q-card-section>
+    </q-card>
+
+    <q-card class="my-card">
+      <q-img src="https://cdn.quasar.dev/img/mountains.jpg" />
+
+      <q-card-section>
+        <div class="text-h6">Our Changing Planet</div>
+        <div class="text-subtitle2">by John Doe</div>
+      </q-card-section>
+
+      <q-card-section class="q-pt-none"> </q-card-section>
+    </q-card>
   </div>
 </template>
 <script></script>

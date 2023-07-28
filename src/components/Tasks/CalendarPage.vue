@@ -1,6 +1,6 @@
 <template>
   <div class="wrap-calendar">
-    <div class="row" text-center>
+    <!-- <div class="row" text-center>
       <q-icon name="events" size="32px"></q-icon>
       <p id="month-year" class="month-year">{{ monthYear }}</p>
     </div>
@@ -39,7 +39,7 @@
         @click="showNextWeek"
         size="24px"
       ></q-btn>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -146,7 +146,7 @@ export default {
 .day-info {
   margin: 15px 5px;
   padding: 0 10px;
-  width: 100px;
+  width: 80px;
   background-color: #6495ed;
   color: #fff;
   border-radius: 5%;
@@ -155,21 +155,21 @@ export default {
 
 .day-info > p {
   font-family: Verdana, sans-serif;
-  padding: 10px 0;
+  padding: 5px 0;
   margin: 0;
   text-align: center;
 }
 
 .day {
-  font-size: 18x;
+  font-size: 16x;
 }
 
 .month-year {
-  font-size: 14px;
+  font-size: 6px;
 }
 
 .date {
-  font-size: 24px;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -180,7 +180,7 @@ export default {
 #month-year {
   font-size: 22px;
   font-family: sans-serif;
-  padding: 10px 0;
+  padding: 5px 0;
   margin: 5px;
   color: #6495ed;
   align-items: center;

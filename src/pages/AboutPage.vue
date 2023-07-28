@@ -32,7 +32,7 @@
         </q-tab-panels>
       </div>
     </div> -->
-    <calendar></calendar>
+    <!-- <calendar></calendar> -->
   </div>
 </template>
 
@@ -46,7 +46,7 @@ export default {
     };
   },
   components: {
-    calendar: require("components/Tasks/CalendarPage.vue").default,
+    // calendar: require("components/Tasks/CalendarPage.vue").default,
   },
 };
 </script>
