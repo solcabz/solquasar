@@ -24,8 +24,7 @@ module.exports = configure(function (ctx) {
     // app boot file (/src/boot)
     // --> boot files are part of "main.js"
     // https://v2.quasar.dev/quasar-cli-webpack/boot-files
-    boot: ["axios", "fontawesome-pro"], // Add boot file ],
-
+    boot: ["axios"],
     // https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js#Property%3A-css
     css: ["app.css"],
 
@@ -33,7 +32,6 @@ module.exports = configure(function (ctx) {
     extras: [
       "material-icons",
       "roboto-font", // optional, you are not bound to it
-      "material-icons",
       "mdi-v7",
       "fontawesome-v6", // optional, you are not bound to it
     ],
@@ -80,9 +78,6 @@ module.exports = configure(function (ctx) {
 
     // https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js#Property%3A-framework
     framework: {
-      config: { iconSet: "fontawesome-v6" },
-      iconSet: "fontawesome-v6-pro",
-
       // iconSet: 'material-icons', // Quasar icon set
       // lang: 'en-US', // Quasar language pack
 
